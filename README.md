@@ -1,8 +1,5 @@
-# alx_travel_app_0x00
+# alx_travel_app_0x01
 
-A Django-based travel application for managing listings, bookings, and reviews.
+## Overview
+This is a Django-based travel application API for managing listings and bookings. It provides RESTful endpoints for CRUD operations on Listing and Booking models, built using Django REST Framework. The API is documented using Swagger.
 
-##  Database Modeling and Data Seeding
-- Defines models for Listing, Booking, and Review in `alx_travel_app/listings/models.py`.
-- Implements serializers for Listing and Booking in `alx_travel_app/listings/serializers.py`.
-- Includes a seeder command in `alx_travel_app/listings/management/commands/seed.py` to populate the database with sample data.
